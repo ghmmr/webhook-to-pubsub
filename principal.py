@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # Configurar el cliente de Pub/Sub
-project_id = "qwiklabs-gcp-00-ca124ad27aec"  # Reemplaza con tu ID de proyecto
+project_id = "qwiklabs-gcp-04-0084c53d303b"  # Reemplaza con tu ID de proyecto
 topic_id = "transacciones"
 
 publisher = pubsub.PublisherClient()
